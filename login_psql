@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+PGPASSWORD="testsql" psql -h localhost -d testsql -U testsql -p 5432
